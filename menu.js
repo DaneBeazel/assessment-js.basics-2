@@ -161,12 +161,13 @@ let foodArr = [
 
 //CODE HERE
 
-const tagFilter = foodArr.tags.filter('meat')
+const tagChecker = (tag, arr) => {
+    return arr.filter(tag)
+}
 
 
-console.log(tagFilter)
 
-//const filteredFood = foodArr.filter(tagFinder('meat',foodArr))
+//const filteredFood = foodArr.filter(())
 
 
 
